@@ -1,0 +1,18 @@
+{
+  "id": 24,
+  "category": {
+    "id":111,
+    "name": "ping"
+  },
+  "name": "dogegie",
+  "photoUrls": [
+    "google.com"
+  ],
+  "tags": [
+    {
+      "id": 25,
+      "name": "Shaho"
+    }
+  ],
+  "status": " not available"
+}
