@@ -20,7 +20,7 @@ public class VerifyPetTest {
         //Reading Json file
         File file = new File("C:\\Users\\sgurijala\\IdeaProjects\\Accelatest\\src\\main\\resources\\Requestfiles\\Addpet.json");
 
-        //Submitting the request and verifying the status code
+        //Submitting the request and verifying the status code-404 Not Found
                 given().body(file).
                 with().contentType("application/json")
                 .when().post("https://petstore.swagger.io/v2/pet")

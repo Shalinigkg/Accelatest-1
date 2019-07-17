@@ -9,7 +9,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 
 public class AddPetTest {
     /**
-     * Positive Scenario Test: Verify that the pet has added to the store with valid data.
+     * Positive Scenario Test: Verify that the pet is added to the store with valid data.
      */
 
     @Test
