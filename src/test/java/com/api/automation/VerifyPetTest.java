@@ -10,10 +10,11 @@ import java.io.File;
 import static io.restassured.RestAssured.given;
 
 public class VerifyPetTest {
-
     /**
      * Negative Scenario Test: Verify that the pet is not added to the store when request is submitted with an invalid data.
      */
+
+
     @Test
     public void verifyPet() {
         //Reading Json file
